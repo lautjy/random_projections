@@ -1,0 +1,69 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# sbt specific
+.cache
+.cache-main
+.cache-tests
+.history
+.lib/
+.idea
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.settings
+.idea
+*.iml
+.settings
+
+# temporary test files and directories
+*_out.txt
+*_out/
+*.bin
+
+# eclipse specific
+.classpath
+.project
+
+# OSX trash
+.DS_Store
