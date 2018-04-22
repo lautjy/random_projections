@@ -4,6 +4,15 @@ Ghostscript PDF to PNG
 
     C:/opt/gs/gs9.22/bin/gswin64c.exe -dNOPAUSE -dBATCH -sDEVICE=pngalpha -sOutputFile=mak.png -r600 C:/2_Downloads/1484_001.pdf
 
+Recursively change folder and file permissions:
+
+    find ./videos -type d -exec chmod 775 {} \;
+    find ./videos -type f -exec chmod 664 {} \;
+    # or
+    chmod -R a+rX *
+    # where capital X ignores files
+
+
 Remove poop left by OSX
 
     sudo find /path/to/folder -name ".DS_Store" -depth -exec rm {} \;
