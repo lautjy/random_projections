@@ -15,7 +15,7 @@ Recursively change folder and file permissions:
 
 Remove poop left by OSX
 
-    sudo find /path/to/folder -name ".DS_Store" -depth -exec rm {} \;
+    sudo find /path/to/folder -depth -name ".DS_Store" -exec rm {} \;
 
 
 Remember `ALT+.` : gives tail of previous command.
